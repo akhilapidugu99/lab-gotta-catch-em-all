@@ -17,7 +17,7 @@ public class TestCharizard {
 		try {
 			Charizard p = new Charizard(null,0,null,null,null,null);
 			temp = null;
-			bulb.getCharacteristics();
+			p.getCharacteristics();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -32,7 +32,7 @@ public class TestCharizard {
 		try {
 			Charizard p = new Charizard(null,0,null,null,null,null);
 			temp = null;
-			p1.getType();
+			p.getType();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -47,7 +47,7 @@ public class TestCharizard {
 		try {
 			Charizard p = new Charizard(null,0,null,null,null,null);
 			temp = null;
-			p1.getEvolution();
+			p.getEvolution();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -61,7 +61,7 @@ public class TestCharizard {
 		try {
 			Charizard p = new Charizard(null,0,null,null,null,null);
 			temp = null;
-			p1.getBaseExp();
+			p.getBaseExp();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
